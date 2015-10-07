@@ -5,3 +5,11 @@ An empty and untracked repository is created. We need to initialize the repo so 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It serves as an intermediary step between making files and committing them. Adding files to the staging area before committing allows us to easily bundle files that logically relate to one another before comitting them all at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Before committing, I can view the staging area to make sure everything that is about to be committed makes sense as one logical step. I can easily edit the staging area if I think something doesn't fit.
+
+How do the diagrams help you visualize the branch structure?
+
+They help illustrate the parent-child relationship of commits and the concept of reachablity.
