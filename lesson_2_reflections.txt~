@@ -1,7 +1,0 @@
-What happens when you initialize a repository? Why do you need to do it?
-
-An empty and untracked repository is created. We need to initialize the repo so we can start working in git.
-
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-It serves as an intermediary step between making files and committing them. Adding files to the staging area before committing allows us to easily bundle files that logically relate to one another before comitting them all at once.
