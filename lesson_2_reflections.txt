@@ -1,10 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-An empty and untracked repository is created. We need to initialize the repo so we can start working in git.
+Initializing a repository creates a hidden .git folder. Not initializing wouldn't allow git to know what folder to include in the repo I want to make.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-It serves as an intermediary step between making files and committing them. Adding files to the staging area before committing allows us to easily bundle files that logically relate to one another before comitting them all at once.
+It serves as an intermediary step between making files and committing them. Adding files to the staging area before committing allows us to easily bundle files that logically relate to one another before comitting them all at once. I'm going to take the liberty of quoting fellow Udacian Brian Tomasik here since he wrote an answer that cleared a lot up for me: "The working directory contains actual local files. The repository contains committed files."
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Allow viewing different versions of the files without changing commit ids, don't affect the master branch.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
@@ -13,3 +17,11 @@ Before committing, I can view the staging area to make sure everything that is a
 How do the diagrams help you visualize the branch structure?
 
 They help illustrate the parent-child relationship of commits and the concept of reachablity.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is the combination of changes made from the branches merged. We represent it in the diagram to illustrate what is reachable after a merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Merging manually allows users to see the differences between branches whereas merging automatically is a time-saving (but less thorough on a personal basis) process.
