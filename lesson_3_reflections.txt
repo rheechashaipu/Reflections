@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Some scenarios that would call for using a remote repositrory include sharing code with others and backing up work in case of a local storage crash.
+
