@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 Some scenarios that would call for using a remote repositrory include sharing code with others and backing up work in case of a local storage crash.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Sometimes you'll want to only pull specific changes that were uploaded to the remote repository.
+
+
